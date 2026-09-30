@@ -2,10 +2,9 @@
 
 Android UI Client
 
-Package: com.nyaui.me  
-Version: 1.0.2  
-Min SDK: 31 (Android 12)  
-Target SDK: 36  
+Package: com.nyaui.me
+Min SDK: 31
+Target SDK: 36
 
 ## Features
 
