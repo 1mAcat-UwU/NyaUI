@@ -10,11 +10,10 @@ Target SDK: 36
 ## Features
 
 - Landscape immersive fullscreen UI  
-- Dynamic Island (music / FPS)  
-- Module menu (Combat, Movement, Player, Visual, World, Misc, Settings)  
-- Watermark, theme, config import/export  
-- FakeFps (Settings): override the FPS shown on the Dynamic Island  
-- English-only UI  
+- Dynamic Island
+- Module menu
+- Watermark, theme, config import/export
+- English-only UI
 
 ## Build
 
