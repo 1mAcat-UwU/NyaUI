@@ -2,6 +2,9 @@
 
 # NyaUI
 
+> [!IMPORTANT]  
+> **Disclaimer:** Please read the [Disclaimer (English)](Disclaimer_en.md) before using or distributing this project.
+
 An Android UI Client.
 
 ![Package](https://img.shields.io/badge/Package-com.nyaui.me-blue)
@@ -10,8 +13,11 @@ An Android UI Client.
 
 ## Features
 
+- Landscape immersive fullscreen UI
 - Dynamic Island
-- And others...
+- Module menu
+- Watermark, theme, config import/export
+- English-only UI
 
 ## Build Requirements
 
@@ -57,3 +63,7 @@ Before building from the command line, you must configure your Android SDK path 
 - This repository is primarily the UI layer. Game-side behavior depends on the hooked / native side of your environment.
 - No source comments are included by design.
 - Credit: forked from ZuoUI by 1mAcat.
+
+## License
+
+Please refer to the original project's license.
