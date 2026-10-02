@@ -6,19 +6,26 @@ This project is a UI interface project for a Minecraft client, mainly used to pr
 
 This project itself does not contain any **cheating** features.
 
-The code of this project is provided in open-source form. Anyone may read, audit, and study the source code of this project.
+The UI source code of this project is provided in open-source form. Anyone may read, audit, and study the source code.
+
+The UI source code is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Any use, modification, redistribution, or secondary development of the UI source code must comply with the GPL-3.0 license.
+
+The **core functionality and independent functional components are not part of the GPL-licensed NyaUI UI source code**. Such components may be developed, distributed, or kept closed-source under their own respective licenses, provided that they remain properly separated from the GPL-3.0 licensed UI source code.
 
 ## **Secondary Development**
 
-You are free to use this project as a basis for secondary development, including but not limited to:
+You are free to use the UI source code of this project as a basis for secondary development, provided that you comply with the GPL-3.0 license, including but not limited to:
 
 - Developing other Minecraft clients
 - Modifying or redesigning the UI
-- Adding, modifying, or removing features
-- Integrating this project into other projects
+- Adding, modifying, or removing UI features
+- Integrating the UI into other projects
 - Conducting personalized or experimental development
+- Forking, modifying, or recreating the UI
 
-Skidding, forking, secondary development, or re-creation are welcome. You are also welcome to build on this project's UI architecture to further turn it into a real hackclient.
+Skidding, forking, secondary development, or re-creation are welcome. You are also welcome to build on this project's UI architecture to further develop a Minecraft client with additional functionality.
+
+**The NyaUI UI source code must comply with the GPL-3.0 licensing and source-availability requirements. Independent core functionality and other non-GPL components may be distributed or kept closed-source under their respective licenses.**
 
 However, please note: **any features added through secondary development are the sole responsibility of the secondary developer. The original author of this project is not responsible for the functionality, security, or purpose of third-party modified versions.**
 
@@ -26,7 +33,7 @@ However, please note: **any features added through secondary development are the
 
 This project does not contain any backdoors, malicious programs, malicious code, information-stealing code, or other functions intentionally harmful to users' devices and data.
 
-Since this project is fully open source, you can do the following yourself:
+Since the UI source code of this project is open source, you can:
 
 - Audit the complete source code
 - Inspect the code and dependencies in the project
@@ -57,6 +64,8 @@ If a build fails due to your local environment, third-party dependencies, networ
 
 Before using, modifying, redistributing, or performing secondary development on this project, please first read the complete project documentation and relevant license terms.
 
-This project is open source, auditable, and can be built by yourself.
+The NyaUI UI source code is open source, auditable, self-buildable, and licensed under GPL-3.0.
 
-**If you choose to perform any form of secondary development based on this project, the relevant modifications and the resulting features and responsibilities shall be borne solely by the secondary developer.**
+**The UI source code must comply with the GPL-3.0 license. Independent core functionality and non-GPL components may be distributed or kept closed-source under their respective licenses.**
+
+**If you choose to perform any form of secondary development based on the NyaUI UI source code, the relevant UI modifications must comply with GPL-3.0. Any independent core functionality, components, and associated responsibilities added by the secondary developer shall be the sole responsibility of that developer.**
