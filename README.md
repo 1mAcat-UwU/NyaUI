@@ -25,8 +25,6 @@ See the [LICENSE](LICENSE) file for the full license text.
 
 - Dynamic Island
 - HUD
-- Module List
-- Notifications
 - Default UI
 - Classic UI
 - Configurable UI settings
