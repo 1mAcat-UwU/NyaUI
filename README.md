@@ -13,11 +13,8 @@ An Android UI Client.
 
 ## Features
 
-- Landscape immersive fullscreen UI
 - Dynamic Island
-- Module menu
-- Watermark, theme, config import/export
-- English-only UI
+- And others......
 
 ## Build Requirements
 
@@ -27,7 +24,7 @@ An Android UI Client.
 
 ## Build Instructions
 
-### Option 1: Using Android Studio (Recommended for Desktop)
+### Option 1: Using Android Studio (Desktop)
 
 1. Open **Android Studio**.
 2. Select **File -> Open** and navigate to the project root directory.
@@ -48,7 +45,7 @@ Before building from the command line, you must configure your Android SDK path 
 - **macOS / Linux / Termux:** `./gradlew assembleDebug`
 - **Windows:** `gradlew.bat assembleDebug`
 
-**2. (Optional) Build Release APK:**
+**2. Build Release APK:**
 *(Ensure your signing configurations are set up in `app/build.gradle` first)*
 - **macOS / Linux / Termux:** `./gradlew assembleRelease`
 - **Windows:** `gradlew.bat assembleRelease`
@@ -61,9 +58,3 @@ Before building from the command line, you must configure your Android SDK path 
 ## Notes
 
 - This repository is primarily the UI layer. Game-side behavior depends on the hooked / native side of your environment.
-- No source comments are included by design.
-- Credit: forked from ZuoUI by 1mAcat.
-
-## License
-
-Please refer to the original project's license.
