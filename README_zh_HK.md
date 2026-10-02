@@ -23,10 +23,8 @@ NyaUI 的 UI 源碼採用 **GNU General Public License v3.0（GPL-3.0）** 授�
 
 ## 功能特色
 
-- 動態島
+- 靈動島
 - HUD
-- 模組列表
-- 通知
 - Default UI
 - Classic UI
 - 可自訂 UI 設置
