@@ -22,19 +22,31 @@ An Android UI Client.
 
 ## Build Instructions
 
-Before building, you must configure your local Android SDK path in `local.properties`:
+### Option 1: Using Android Studio (Recommended for Desktop)
 
-```bash
-# 1. Configure SDK path
-echo "sdk.dir=/path/to/Android/Sdk" > local.properties
+1. Open **Android Studio**.
+2. Select **File -> Open** and navigate to the project root directory.
+3. Android Studio will automatically generate the `local.properties` file and configure your SDK path.
+4. Go to **Build -> Build Bundle(s) / APK(s) -> Build APK(s)**.
+5. Once finished, click "locate" in the notification to find the APK.
 
-# 2. Build Debug APK
-./gradlew assembleDebug
+### Option 2: Using Command Line (All Platforms)
 
-# 3. (Optional) Build Release APK
-# Ensure your signing configurations are set up in app/build.gradle first
-./gradlew assembleRelease
-```
+Before building from the command line, you must configure your Android SDK path in `local.properties` located at the project root:
+
+- **macOS / Linux / Termux:**
+  `sdk.dir=/path/to/Android/Sdk`
+- **Windows:**
+  `sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk`
+
+**1. Build Debug APK:**
+- **macOS / Linux / Termux:** `./gradlew assembleDebug`
+- **Windows:** `gradlew.bat assembleDebug`
+
+**2. (Optional) Build Release APK:**
+*(Ensure your signing configurations are set up in `app/build.gradle` first)*
+- **macOS / Linux / Termux:** `./gradlew assembleRelease`
+- **Windows:** `gradlew.bat assembleRelease`
 
 ## Output
 
