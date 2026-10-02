@@ -3,7 +3,7 @@
 # NyaUI
 
 > [!IMPORTANT]  
-> **Disclaimer:** Please read the [Disclaimer (English)](Disclaimer_en.md) before using or distributing this project.
+> **Disclaimer:** Please read the [Disclaimer](Disclaimer_en.md) before using or distributing this project.
 
 An Android UI Client.
 
