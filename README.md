@@ -2,8 +2,8 @@
 
 # NyaUI
 
-> [!IMPORTANT]  
-> **Disclaimer:** Please read the [Disclaimer](Disclaimer_en.md) before using or distributing this project.
+> [!IMPORTANT]
+> **Disclaimer:** Please read the [Disclaimer](Disclaimer_en.md) before using, modifying, redistributing, or developing based on this project.
 
 An Android UI Client.
 
@@ -11,9 +11,25 @@ An Android UI Client.
 ![Min SDK](https://img.shields.io/badge/Min%20SDK-31-green)
 ![Target SDK](https://img.shields.io/badge/Target%20SDK-36-orange)
 
+## License
+
+The NyaUI UI source code is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+The UI source code must remain compliant with the GPL-3.0 license when modified or redistributed.
+
+Independent core functionality and non-GPL components may be distributed or kept closed-source under their respective licenses, provided that they remain properly separated from the GPL-licensed UI source code.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
 ## Features
 
 - Dynamic Island
+- HUD
+- Module List
+- Notifications
+- Default UI
+- Classic UI
+- Configurable UI settings
 - And others......
 
 ## Build Requirements
@@ -57,4 +73,6 @@ Before building from the command line, you must configure your Android SDK path 
 
 ## Notes
 
-- This repository is primarily the UI layer. Game-side behavior depends on the hooked / native side of your environment.
+- This repository primarily contains the NyaUI UI layer.
+- Game-side behavior depends on the hooked / native side of your environment.
+- Core functionality may be developed and distributed separately from the GPL-licensed UI layer.
