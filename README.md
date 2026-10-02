@@ -10,11 +10,8 @@ An Android UI Client.
 
 ## Features
 
-- Landscape immersive fullscreen UI
 - Dynamic Island
-- Module menu
-- Watermark, theme, config import/export
-- English-only UI
+- And others...
 
 ## Build Requirements
 
