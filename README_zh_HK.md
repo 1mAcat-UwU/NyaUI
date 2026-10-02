@@ -3,7 +3,7 @@
 # NyaUI
 
 > [!IMPORTANT]  
-> **免責聲明：** 使用或分發本項目前，請務必先閱讀 [免責聲明（繁體中文）](Disclaimer_免責聲明_zh_HK.md)。
+> **免責聲明：** 使用或分發本項目前，請務必先閱讀 [免責聲明](Disclaimer_免責聲明_zh_HK.md)。
 
 一個Android UI客戶端
 
