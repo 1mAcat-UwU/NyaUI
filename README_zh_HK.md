@@ -37,7 +37,7 @@ NyaUI 的 UI 源碼採用 **GNU General Public License v3.0（GPL-3.0）** 授�
 - Android SDK (Platform 36)
 - Gradle 8.13+
 
-## 構建說明
+## 構建説明
 
 ### 方式一：使用 Android Studio（電腦）
 
