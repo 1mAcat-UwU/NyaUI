@@ -26,10 +26,8 @@ See the [LICENSE](LICENSE) file for the full license text.
 - Minecraft Bedrock Launcher
 - Dynamic Island
 - HUD
-- Default UI
 - Configurable UI settings
 - Third-party Client development support
-- And others......
 
 ## Build Requirements
 
@@ -39,34 +37,22 @@ See the [LICENSE](LICENSE) file for the full license text.
 
 ## Build Instructions
 
-### Option 1: Using Android Studio (Desktop)
+Configure your Android SDK path in `local.properties`:
 
-1. Open **Android Studio**.
-2. Select **File -> Open** and navigate to the project root directory.
-3. Wait for Gradle synchronization to complete.
-4. Go to **Build -> Build Bundle(s) / APK(s) -> Build APK(s)**.
-5. Once finished, click "locate" in the notification to find the APK.
+- **macOS / Linux / Termux:** `sdk.dir=/path/to/Android/Sdk`
+- **Windows:** `sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk`
 
-### Option 2: Using Command Line (All Platforms)
+**Debug APK:**
 
-Configure your Android SDK path in `local.properties` located at the project root:
+    ./gradlew assembleDebug
 
-- **macOS / Linux / Termux:**
-  `sdk.dir=/path/to/Android/Sdk`
-- **Windows:**
-  `sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk`
+**Release APK:**
 
-**1. Build Debug APK:**
+    ./gradlew assembleRelease
 
-- **macOS / Linux / Termux:** `./gradlew assembleDebug`
-- **Windows:** `gradlew.bat assembleDebug`
+On Windows, use `gradlew.bat` instead of `./gradlew`.
 
-**2. Build Release APK:**
-
-- **macOS / Linux / Termux:** `./gradlew assembleRelease`
-- **Windows:** `gradlew.bat assembleRelease`
-
-Ensure your release signing configuration is set up in `app/build.gradle` before building.
+Release builds require a valid signing configuration in `app/build.gradle`.
 
 ## Output
 
@@ -75,6 +61,6 @@ Ensure your release signing configuration is set up in `app/build.gradle` before
 
 ## Notes
 
-- NyaUI provides the launcher and general UI/HUD framework.
+- NyaUI provides the Minecraft launcher and general UI/HUD framework.
 - Third-party developers can build their own Client implementations using NyaUI's framework.
-- Client-specific functionality is not included in NyaUI by default.
+- Client-specific functionality is not included by default.
