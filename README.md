@@ -23,11 +23,11 @@ See the [LICENSE](LICENSE) file for the full license text.
 
 ## Features
 
-- Minecraft Bedrock Launcher
 - Dynamic Island
 - HUD
 - Configurable UI settings
 - Third-party Client development support
+- and others...
 
 ## Build Requirements
 
