@@ -23,21 +23,21 @@ NyaUI 的 UI 源碼採用 **GNU General Public License v3.0（GPL-3.0）** 授�
 
 ## 功能特色
 
-- Minecraft Bedrock 啟動器
 - 靈動島
 - HUD
 - 可自訂 UI 設定
 - 支援第三方 Client 開發
+- 等...
 
-## 建置需求
+## 構建要求
 
 - JDK 17
 - Android SDK (Platform 36)
 - Gradle 8.13+
 
-## 建置說明
+## 構建説明
 
-在命令列建置前，必須在項目根目錄的 `local.properties` 中設定 Android SDK 路徑：
+在命令列構建前，必須在項目根目錄的 `local.properties` 中設定 Android SDK 路徑：
 
 - **macOS / Linux / Termux：** `sdk.dir=/path/to/Android/Sdk`
 - **Windows：** `sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk`
