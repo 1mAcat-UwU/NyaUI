@@ -1,6 +1,6 @@
-Disclaimer
+# Disclaimer
 
-Project Statement
+### Project Statement
 
 NyaUI is a Minecraft Android Launcher, UI/HUD Framework, and open platform for third-party Client development.
 
@@ -22,7 +22,7 @@ The UI source code is licensed under the GNU General Public License v3.0 (GPL-3.
 
 Independent core functionality and non-GPL components are not automatically covered by the GPL-licensed UI source code. They may be developed, distributed, or kept closed-source under their respective licenses, provided that their separation and distribution comply with applicable licensing requirements.
 
-Secondary Development
+### Secondary Development
 
 You are welcome to use the NyaUI framework and its UI source code as a foundation for your own development, subject to the applicable license terms.
 
@@ -46,7 +46,7 @@ Any features, modifications, extensions, or independent Client implementations a
 
 The original NyaUI author is not responsible for the functionality, security, legality, distribution, or purpose of third-party modified versions or independently developed components.
 
-Security Statement
+### Security Statement
 
 The original NyaUI project does not intentionally include backdoors, malicious programs, information-stealing code, or other functionality designed to harm users' devices or data.
 
@@ -61,7 +61,7 @@ If you have security concerns, you are encouraged to inspect the source code and
 
 Open-source availability does not automatically guarantee that every build, dependency, extension, or third-party modification is secure.
 
-Build Issues
+### Build Issues
 
 If you encounter errors or failures while building NyaUI, please check the following first:
 
@@ -79,7 +79,7 @@ NyaUI does not guarantee successful builds on every device, operating system, or
 
 Build failures caused by local configurations, third-party dependencies, network conditions, or other external factors should be investigated within the corresponding environment.
 
-Finally
+### Finally
 
 Before using, modifying, redistributing, or developing based on NyaUI, please read the complete project documentation and applicable license terms.
 
