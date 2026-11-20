@@ -29,6 +29,18 @@ See the [LICENSE](LICENSE) file for the full license text.
 - Third-party Client development support
 - and others...
 
+## Installation
+
+Download the latest APK from [Releases](../../releases).
+
+> [!NOTE]
+> **For Android Devices with Google Mobile Services (2027+ Policy):**
+> Because NyaUI is an independent open-source app without Google developer identity verification, GMS-certified devices (Android 8.0+) may block direct installation starting January 2027. Non-GMS devices (such as Mainland China ROMs) are unaffected.
+>
+> To install on GMS devices, choose one of the following methods:
+> - **Option 1 (Native):** Go to **Settings > Developer options > Apps from unverified developers**, enable it, reboot your device, and wait 24 hours to activate permanent sideloading.
+> - **Option 2 (Instant / No Wait):** Install using **Shizuku** (via a compatible installer such as InstallerX) or via PC using `adb install app-release.apk`.
+
 ## Build Requirements
 
 - JDK 17
