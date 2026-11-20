@@ -1,9 +1,9 @@
-[English](README.md) | [繁體中文（香港）](README_zh_HK.md)
+[English](README.md) | [繁體中文](README_zh_HK.md)
 
 # NyaUI
 
 > [!IMPORTANT]
-> **免責聲明：** 使用、修改、分發或基於本項目進行二次開發前，請務必先閱讀 [免責聲明](Disclaimer_免責聲明_zh_HK.md)。
+> **免責聲明：** 使用、修改、分發或基於本項目進行二次開發前，請務必先閱讀 [免責聲明](Disclaimer_免責聲明_zh_TW.md)。
 
 Minecraft Android 啟動器及 UI/HUD 框架。
 
@@ -31,15 +31,15 @@ NyaUI 的 UI 源碼採用 **GNU General Public License v3.0（GPL-3.0）** 授�
 
 ## 安裝說明
 
-請前往 [Releases](../../releases) 下載最新版本的 APK 安裝包。
+請前往 [Releases](../../releases) 下載最新版本的 APK 安裝檔。
 
 > [!NOTE]
-> **針對配備 Google 流動服務（GMS）的 Android 裝置（2027 年新政策）：**
-> 由於 NyaUI 為獨立開源項目，未進行 Google 開發者身份實名驗證，自 2027 年 1 月起，通過 Google 認證的裝置（Android 8.0 及以上）可能會攔截直接安裝。未配備 GMS 的裝置（如中國大陸國行系統）則不受影響。
+> **針對內置 Google 流動服務（GMS）的 Android 裝置（2027 年新政策）：**
+> 由於 NyaUI 屬於獨立開源項目，並未進行 Google 開發者身份實名認證，自 2027 年 1 月起，通過 Google 認證的裝置（Android 8.0 及以上）可能會攔截直接安裝。未內置 GMS 的裝置（例如中國大陸國行系統）則不受影響。
 >
-> 如需在 GMS 裝置上安裝，請選擇以下任一方式：
-> - **方式一（系統原生解鎖）：** 前往 **設定 > 開發人員選項 > 來自未驗證開發者的應用程式**，開啟該選項並重新啟動手機，等待 24 小時後即可啟用永久側載權限。
-> - **方式二（免等待即時安裝）：** 透過 **Shizuku**（配合支援 Shizuku 的安裝器，如 InstallerX）安裝，或連接電腦執行 `adb install app-release.apk` 進行安裝。
+> 如需在 GMS 裝置上安裝，請選擇以下其中一種方法：
+> - **方法一（系統原生解鎖）：** 前往 **設定 > 開發人員選項 > 來自未驗證開發者的應用程式**，開啟該選項並重新啟動裝置，等待 24 小時後即可啟用永久側載權限。
+> - **方法二（免等待即時安裝）：** 透過 **Shizuku**（配合支援 Shizuku 的安裝器，例如 InstallerX）安裝，或者連接電腦執行 `adb install app-release.apk` 進行安裝。
 
 ## 構建要求
 
@@ -47,7 +47,7 @@ NyaUI 的 UI 源碼採用 **GNU General Public License v3.0（GPL-3.0）** 授�
 - Android SDK (Platform 36)
 - Gradle 8.13+
 
-## 構建説明
+## 構建說明
 
 在命令列構建前，必須在項目根目錄的 `local.properties` 中設定 Android SDK 路徑：
 
