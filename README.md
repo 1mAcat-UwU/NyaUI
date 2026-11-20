@@ -1,4 +1,4 @@
-[English](README.md) | [繁體中文（香港）](README_zh_HK.md)
+[English](README.md) | [繁體中文](README_zh_HK.md)
 
 # NyaUI
 
