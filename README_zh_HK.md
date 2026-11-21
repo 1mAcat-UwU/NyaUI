@@ -3,7 +3,7 @@
 # NyaUI
 
 > [!IMPORTANT]
-> **免責聲明：** 使用、修改、分發或基於本項目進行二次開發前，請務必先閱讀 [免責聲明](Disclaimer_免責聲明_zh_TW.md)。
+> **免責聲明：** 使用、修改、分發或基於本項目進行二次開發前，請務必先閱讀 [免責聲明](Disclaimer_免責聲明_zh_HK.md)。
 
 Minecraft Android 啟動器及 UI/HUD 框架。
 
